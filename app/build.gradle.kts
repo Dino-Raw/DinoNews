@@ -57,6 +57,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
 
     implementation("com.google.dagger:hilt-android:2.50")
+    implementation("androidx.test.ext:junit-ktx:1.1.5")
+    implementation("androidx.test:monitor:1.6.1")
     kapt("com.google.dagger:hilt-android-compiler:2.50")
 }
 
